@@ -2,8 +2,8 @@ body{
     background-image: url('https://st4.depositphotos.com/3271841/27831/v/600/depositphotos_278313912-stock-video-white-abstract-blur-glowing-background.jpg');
     background-size: auto 100vh;
     font-family: Arial;
+    backdrop-filter: blur(1000px);
     height: 100vh;
-
 }
 
 .menu {
@@ -19,6 +19,19 @@ body{
 a{
     text-decoration: none;
 
+}
+h1:hover {
+    color:blue ;
+}
+
+h2:hover{
+    color: crimson;
+    
+}
+p:hover {
+    -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-200deg);
 }
 a:hover {
     text-decoration: underline;
